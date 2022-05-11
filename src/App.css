@@ -1,0 +1,34 @@
+.App{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aqua;
+}
+.board{
+  width: 500px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  border: 1px solid;
+}
+.box{
+  width:500px;
+  height:166px;
+  display:flex;
+  flex-direction: row;
+}
+.square{
+  flex:33%;
+  height:100%;
+  color:white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor:pointer;
+  font-size:30px;
+  border:1px solid;
+}

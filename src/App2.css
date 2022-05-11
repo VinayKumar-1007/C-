@@ -1,0 +1,14 @@
+.game{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    color: white;
+    background-color: blue;
+    margin:5px;
+    padding: 8px;
+    border: solid;
+    display: flex;
+    flex-basis: 30px;
+}
